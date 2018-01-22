@@ -11,6 +11,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
+
 .container4 {
   width: 100%;
   max-width: 960px;
@@ -99,11 +100,10 @@ nav a {
   display: block;
   margin-top:20px;
   padding-top: 130px;
-  position: relative;
+ 
 }
 
 .section1 {
-  margin-top:80px;
   float: left;
   width: 100%;
   max-width: 600px;
@@ -111,7 +111,7 @@ nav a {
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
-  position: absolute;top: 95px;
+  position: absolute;top: 115px;
 }
 .image1 {
   float: left;
@@ -156,35 +156,34 @@ nav a {
 
 .image5 {
   float: right;
-  width: 200px;
-  height: auto;
+  width: 100px;
+  height:100px;
   margin-top: 10px;
-  margin-right: 25px;
+  margin-right: -425px;
   }
 
 .image6 {
   float: right;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
+  width: 100px;
+  height:100px;
+  margin-top: 30px;
+  margin-right: -425px;
+}
+
+.image7 {
+  float: right;
+  width: 100px;
+  height:100px;
+  margin-top: 50px;
+  margin-right: -425px;
 }
 .image8 {
   float: right;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
+  width: 100px;
+  height:100px;
+  margin-top: 35px;
+  margin-right: -425px;
 }
-.image9 {
-  float: right;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-}
-
-
 
 
 
@@ -209,7 +208,6 @@ nav a {
   border: 3px solid #ddd;
 }
 .section4 {
-  margin-top:0px;
   float: left;
   width: 100%;
   max-width: 460px;
@@ -217,11 +215,11 @@ nav a {
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
-  position: absolute;top: 100px;
+  position: absolute;top: 120px;
 }
 .section5 {
   margin-top: -30px;
-  margin-right: 100px;
+  margin-right: 170px;
   position:relative; ;
   float: right;
   width: 100%;
@@ -236,14 +234,14 @@ nav a {
   float: left;
   width: 100%;
   max-width: 600px;
-  padding: 30px;
+  padding: 0px;
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
-  position: absolute;top: 100px;
+  position: absolute;top: 112px;
 }
 .section7 {
-  margin-top: -30px;
+  margin-top: -38px;
   margin-right: 200px;
   position:relative; ;
   float: right;
@@ -261,3 +259,34 @@ h3 {
   color: #4aaaa5;
 }
 
+#name{
+font-size: 20px;
+}
+
+#email{
+font-size: 20px;
+}
+
+#message{
+font-size: 20px;
+height:180px;
+width:500px;
+margin-left: -65px;
+margin-top: -70px;
+}
+
+#submit{
+font-size: 20px;
+height:180px;
+width:200px;
+margin-left: 125px;
+margin-top: -70px;
+}
+
+.work{
+  float: center;
+  width: 60px;
+  height: auto;
+  margin-top: 10px;
+  
+} 
